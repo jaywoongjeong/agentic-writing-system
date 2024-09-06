@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Agentic Writing System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 소개
 
-## Available Scripts
+Agentic Writing System은 AI 기반의 대화형 스토리텔링 도구입니다. 이 시스템은 작가, 시나리오 작가, 그리고 창의적인 스토리텔러들이 캐릭터를 생성하고 대화를 시뮬레이션하며 다양한 형식의 스크립트를 생성할 수 있도록 도와줍니다.
 
-In the project directory, you can run:
+## 주요 기능
 
-### `npm start`
+1. **캐릭터 ��성**: 사용자 정의 캐릭터를 생성하거나 유명 TV 프로그램의 캐릭터를 무작위로 선택할 수 있습니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **대화 시뮬레이션**: 선택한 캐릭터들 간의 대화를 AI를 통해 생성합니다. 사용자는 대화에 직접 참여하거나 AI가 모든 캐릭터의 대화를 생성하도록 할 수 있습니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **스크립트 변환**: 생성된 대화를 연극 대본, TV 시나리오, 영화 대본 등 다양한 형식의 스크립트로 변환할 수 있습니다.
 
-### `npm test`
+## 사용 방법
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. 캐릭터 섹션에서 "Add Character" 버튼을 클릭하여 새 캐릭터를 생성하거나 "Add Random TV Character" 버튼을 클릭하여 무작위 TV 캐릭터를 추가합니다.
 
-### `npm run build`
+2. 대화 섹션에서 참여할 캐릭터를 선택하고 대화 상황을 설정합니다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. "Start Dialogue" 버튼을 클릭하여 AI 기반 대화를 시작합니다.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. 대화가 완료되�� 스크립트 섹션에서 원하는 스크립트 형식을 선택하고 "Convert" 버튼을 클릭하여 스크립트를 생성합니다.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 기술 스택
 
-### `npm run eject`
+- React
+- CSS
+- AI 대화 생성 API (구현 예정)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 설치 및 실행
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. 저장소를 클론합니다:
+   ```
+   git clone https://github.com/your-username/agentic-writing-system.git
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. 프로젝트 디렉토리로 이동합니다:
+   ```
+   cd agentic-writing-system
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. 필요한 패키지를 설치합니다:
+   ```
+   npm install
+   ```
 
-## Learn More
+4. 개발 서버를 실행합니다:
+   ```
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. 웹 브라우저에서 `http://localhost:3000`으로 접속하여 애플리케이션을 사용합니다.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 기여하기
 
-### Code Splitting
+프로젝트에 기여하고 싶으시다면 이슈를 생성하거나 풀 리퀘스트를 보내주세요. 모든 기여를 환영합니다!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 라이선스
 
-### Analyzing the Bundle Size
+이 프로젝트는 MIT 라이선스 하에 있습니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 연락처
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+질문이나 피드백이 있으시면 [your-email@example.com](mailto:your-email@example.com)로 연락주세요.
